@@ -1,0 +1,9 @@
+cookie setup::
+res.cookie("name",value)
+
+cookie reading::
+req.cookies.name
+
+
+cookie delete
+res.clearCookie("name)

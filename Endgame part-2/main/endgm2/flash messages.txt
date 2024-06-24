@@ -1,0 +1,15 @@
+jab bhi aap kisi ejs page ko dekhenge wha pr aapko kisi prakaar ka koi information dena hai, wo kehlata hai flash message, they are more like good looking alerts, warning and descriptions
+
+=> install connect-flash
+=> make sure you put connect flash in app.use function
+=> kisi bhi route mein aap ko flash create rna hai
+=> kisi bhi dusre route pr app use chalane ka try krein
+
+
+AAP CONNECT FLASH KO USE NHI KR SKTE BINA EXPRESS SESSION KE
+
+
+hum log chahte hai ki jb hum kisi route pr jaaye jaise ki /failed us route pr ek flash message bane aur wo flash message hum logo ko / route pr dikhe ejs mein
+
+flash message ka mtlb server ke kisi route mein koi data banana and us data ko doosre route mein use kr paana
+

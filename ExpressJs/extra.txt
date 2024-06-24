@@ -1,0 +1,53 @@
+node ke sath ek dikkat hai ki agar control ek baar bhi kisi middleware par gaya to control kud se agle route/middleware pr nhi jaega, use agle par lejaane ke liye aapko push krna pdega aur ye push kahlayeega next ko chalanna
+
+
+dash.com/profile/harsh
+dash.com/profile/harshit
+dash.com/profile/harshita
+dash.com/profile/harshita
+dash.com/profile/hardik
+
+// DYNAMIC ROUTING
+aisa koi bhi route jiksa koi hissa baar baar same rhta hai and kuch hissa baar baar chnage hota hai iske liye aap ek dynamic routing bana skte ho.
+
+/profile/harsh
+/profile/harshit
+/profile/harshita
+/profile/hardik
+
+/profile/:username
+
+
+url mein jb bhi aapke paass ek aisa pattern ho
+
+/profle/:username -> (:username) aka params and isko acces krna hai to {req.params.username} aise hoga and also see the reference
+
+
+/////
+Html ke paas superpowers nhi hai calculations krne ki 
+
+ejs is html with superpower 
+
+ejs setup krne ke liye :::
+1> ejs install
+npm i ejs
+
+2> configure ejs
+app.set("view engine","ejs")
+
+3> ek views folder banao
+
+4> usmein ejs files banao
+
+5> send ki jagah render kro => render krte waqt make sure ki aap views ke andar waali hi koi file ka naame likhein , aur usmein ejs add na kre , aur render function mein .ejs meintion naa karein
+
+
+
+static file ko setup krne ke liye :::
+1> create a folder called public
+
+2> create three folders inside it, images, stylesheets, javascripts
+
+3>configure the express static in index.js/script.
+
+4> understand the path

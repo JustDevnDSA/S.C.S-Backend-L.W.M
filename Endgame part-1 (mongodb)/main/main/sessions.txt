@@ -1,0 +1,11 @@
+session::
+express-session 
+
+create::
+req.session.koibhinaam = koibhivalue
+
+read::
+req.session.koibhuinaam
+
+delete::
+req.session.destroy

@@ -1,0 +1,18 @@
+mongodb -> database
+
+Types of database --> Relational (mySQl,sql..) and Non-Realational(mongodb)
+
+====================================================================================================
+
+har naye app ka data store hoga storage mein , par use directly rakhne ki jagah ek conatainer mein rakhenge, us container mein sirf us app ka data aayega
+
+models (code) ==> collection (db)
+
+schema (code) ==> documents(db)
+
+// ek app ka pura data --> database
+// ek app mein variety of data hota hai pr poora data hota app ka hi hai , pr us data ka sub category khlata hai collection
+// collection mtlb ki bola users ka data, ek user pe baat kri to hua document
+
+
+// Schema mtlb aapko ye batana banne wla hr document mein kya kya hoga

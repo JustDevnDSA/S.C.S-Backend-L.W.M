@@ -1,0 +1,8 @@
+mongoose ko setup kro
+
+
+^ - shuruaat aisi ho
+
+^hello$
+
+$ - ant aisa ho

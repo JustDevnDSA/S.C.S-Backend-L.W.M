@@ -1,0 +1,19 @@
+/ --> route pr login and signup hoga
+
+/profile --> pr aapko aapki profile dikhegi and aapke saved post dekhenge, aur ek uplaoded section hoga jo abhi  nhi bana rhe
+
+/feed --> yha pr saari images dikengi
+
+/click --> krke image open ho jaegi save kr skte ho
+
+/board/:boardname --> poora board dikhega
+
+====================================================================================================
+
+posts
+image
+caption
+
+multer
+image uploaded
+caption
